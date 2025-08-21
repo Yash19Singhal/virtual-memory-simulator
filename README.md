@@ -21,3 +21,32 @@ C++
 Data Structures (Queues, Hash Maps, Arrays)
 
 Operating System Concepts (Virtual Memory, Page Replacement)
+
+
+
+
+How to Run
+Windows 
+
+Download this repository as ZIP and extract it.
+
+Open the extracted folder.
+
+Double-click (run_project.bat)
+
+It will compile the project and run the program automatically.
+
+
+
+
+Linux / Mac
+
+Clone the repository:
+
+git clone https://github.com/Yash19Singhal/virtual-memory-simulator.git
+cd virtual-memory-simulator
+
+
+Compile and run using Makefile:
+
+make run
