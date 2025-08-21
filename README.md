@@ -26,6 +26,8 @@ Installation & Running
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/Yash19Singhal/virtual-memory-simulator.git
+```
+```bash
 cd virtual-memory-simulator
 ```
 Compile using Makefile (Linux / Mac)
@@ -38,12 +40,7 @@ simply double-click:
 ```bash
 run_project.bat
 ```
-Or manually compile and run:
-```bash
 
-g++ main.cpp fifo.cpp lru.cpp optimal.cpp utils.cpp -o project
-project.exe
-```
 
 
 
