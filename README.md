@@ -44,6 +44,7 @@ Linux / Mac
 Clone the repository:
 
 git clone https://github.com/Yash19Singhal/virtual-memory-simulator.git
+
 cd virtual-memory-simulator
 
 
