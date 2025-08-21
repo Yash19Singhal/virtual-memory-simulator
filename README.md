@@ -1,56 +1,24 @@
-Virtual Memory Simulator
+Page Replacement Algorithms in C++
 
-This project simulates page replacement algorithms used in Operating Systems for efficient virtual memory management. It highlights how different strategies handle page faults and manage memory frames using core Data Structures and Algorithms (DSA).
+This project implements **Page Replacement Algorithms** commonly used in Operating Systems for memory management.  
+It includes the following algorithms:
+- **FIFO (First-In First-Out)**
+- **LRU (Least Recently Used)**
+- **Optimal Page Replacement**
 
-Features
+---
 
-FIFO (First-In-First-Out) Page Replacement
+Project Structure
+- `fifo.cpp / fifo.h` → FIFO algorithm implementation  
+- `lru.cpp / lru.h` → LRU algorithm implementation  
+- `optimal.cpp / optimal.h` → Optimal algorithm implementation  
+- `utils.cpp / utils.h` → Helper functions  
+- `main.cpp` → Main driver program  
+- `Makefile` → Build automation (Linux/Mac)  
+- `run_project.bat` → Run script (Windows)  
+- `README.md` → Documentation  
 
-LRU (Least Recently Used) Page Replacement
-
-Optimal Page Replacement
-
-Step-by-step visualization of memory states and page faults
-
-Modular architecture with separate header (.h) and source (.cpp) files
-
-Technologies Used
-
-C++
-
-Data Structures (Queues, Hash Maps, Arrays)
-
-Operating System Concepts (Virtual Memory, Page Replacement)
-
-
-
-
-
-
-How to Run
-
-
-Windows 
-
-Download this repository as ZIP and extract it.
-
-Open the extracted folder.
-
-Double-click (run_project.bat)
-
-It will compile the project and run the program automatically.
-
-
-
-
-Linux / Mac
-
-Clone the repository:
- ```bash
-git clone https://github.com/Yash19Singhal/virtual-memory-simulator.git
-
-cd virtual-memory-simulator
- ```
+---
 
 
 
@@ -58,3 +26,8 @@ Compile and run using Makefile:
  ```bash
 make run
  ```
+Using Windows 
+
+Simply double-click:
+
+run_project.bat
