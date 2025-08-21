@@ -46,12 +46,15 @@ It will compile the project and run the program automatically.
 Linux / Mac
 
 Clone the repository:
-
+ ```bash
 git clone https://github.com/Yash19Singhal/virtual-memory-simulator.git
 
 cd virtual-memory-simulator
+ ```
+
 
 
 Compile and run using Makefile:
-
+ ```bash
 make run
+ ```
