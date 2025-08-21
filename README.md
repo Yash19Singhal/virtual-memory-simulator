@@ -28,6 +28,8 @@ Operating System Concepts (Virtual Memory, Page Replacement)
 
 
 How to Run
+
+
 Windows 
 
 Download this repository as ZIP and extract it.
