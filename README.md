@@ -22,12 +22,4 @@ Project Structure
 
 
 
-Compile and run using Makefile:
- ```bash
-make run
- ```
-Using Windows 
 
-Simply double-click:
-
-run_project.bat
